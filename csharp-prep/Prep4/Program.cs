@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 //using System.Collections.Generic;
+
 //This was in our lesson, but I don't know if I was supposed
 //to put it on here. It aleady had the other two system codes.
 
@@ -50,10 +51,16 @@ class Program
         
         Console.WriteLine($"The sum is: {sum}");
 
+        //to get the size of the list, use the Count property
+        //properties don't need parentheses
+        //functions need parentheses()
+
         float average = ((float)sum) / numbers.Count;
         Console.WriteLine($"The average is: {average}");
 
         int max = numbers[0];
+
+        //the foreach loop iterates through a list in C#
 
         foreach (int number in numbers)
         {
