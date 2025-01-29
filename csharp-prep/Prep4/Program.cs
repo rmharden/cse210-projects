@@ -73,3 +73,9 @@ class Program
         Console.WriteLine($"The largest number is: {max}");
     }
 }
+
+//accessing the items by their index example:
+//for (int i = 0; i < numbers.Count; i++)
+//{
+//      Console.WriteLine(numbers[i]);
+//}
