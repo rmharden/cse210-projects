@@ -28,6 +28,10 @@ class Program
         while (userNumber !=0)
         {
             Console.WriteLine("Enter a list of numbers, type 0 when finished.");
+            
+            //Parse converts the string representation of a
+            //number in a specified culture-specific format
+            //to its 32-bit signed integer equivalent.
 
             string userResponse = Console.ReadLine();
             userNumber = int.Parse(userResponse);
