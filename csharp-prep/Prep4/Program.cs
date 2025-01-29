@@ -20,6 +20,12 @@ using System.Diagnostics.CodeAnalysis;
 //more about this in coming weeks, but for 
 //now, just remember to include new before 
 //you start using a list.
+//args is short for arguments i.e. the values
+//that the function or method expects to have passed it.
+//static means that the method belongs to the Program
+//class and not an object of the Program class.
+//void means that the method does not have a
+//return value.
 class Program
 {
     static void Main(string[] args)
