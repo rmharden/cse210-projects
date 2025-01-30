@@ -78,8 +78,10 @@ class Program
         //One of the most important aspects of programming
         //with classes is that multiple instances can be
         //created and used in the same program.
+        
         //An instance of the Job class is created and
         //now is assigned to the variable "job2".
+        
         //It is created by invoking the constructor method
         //which is the name of the class followed by
         //parenthenses and it requires the keyword "new".
