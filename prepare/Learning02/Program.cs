@@ -54,6 +54,7 @@ using System.IO.Pipes;
 //This is the class or name of the class
 class Program
 {
+    //I believe this is the Main function?
     static void Main(string[] args)
     {
         //The Job class is in a new file called Job.cs
@@ -68,9 +69,14 @@ class Program
         //C# requires the word "new" keyword when
         //calling a constructor.
         
+        //I believe this is where the new job instance is and
+        //it is called job1.
         Job job1 = new Job();
         //the member variables start with an underscore _
         job1._jobTitle = "Software Enigeer";
+        //The dot notation allows the company of this job
+        //to be displayed on the scree so it can access
+        //the member variable.
         job1._company = "Microsoft";
         job1._startYear = 2019;
         job1._endYear = 2022;
@@ -91,6 +97,8 @@ class Program
         job2._startYear = 2022;
         job2._endYear = 2023;
 
+        //This is calling the Resume class, right?
+        //Or is this where the Resume instance is created?
         Resume myResume = new Resume();
         myResume._name = "Allison Rose";
 

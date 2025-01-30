@@ -12,8 +12,17 @@ public class Job
     public int _startYear;
     public int _endYear;
 
+    //The method displays the job details on the screen
+    //in the correct format.
+    //The method accesses the member variables directly
+    //without needing them to be passed into it.
+    
+    //Methods begin with a capital letter, such as Display.
+    //If you have multiple words, each word should be
+    //capitalized, such as DisplayJobDetails.
+
     //I think this is the method (member function) that
-    //displays the job details.
+    //displays the job details.      
     public void Display()
     {
         Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}");
