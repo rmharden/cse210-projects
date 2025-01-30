@@ -4,28 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Entry entry1 = new Entry();
-        entry1.newEntry = "";
-
-        entry1._entryResponse = "";
-        entry1._entryPrompt = "";
-        entry1._entryDate = "";
-
-        Entry entry2 = new Entry();
-        entry2.newEntry = "";
-
-        entry2._entryResponse = "";
-        entry2._entryPrompt = "";
-        entry2._entryDate = "";
-
-        Journal myJournal = new Journal();
-
-        myJournal.entrys.Add(entry1);
-        myJournal.entrys.Add(entry2);
-
-        myJournal.Display();
+        Console.WriteLine("Hello Develop02 World!");
     }
-} 
+}
 
 ///<summary>
 ///
