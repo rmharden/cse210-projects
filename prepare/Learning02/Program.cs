@@ -56,6 +56,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        //The Job class is in a new file called Job.cs
+
         //An instance of the Job class is created and
         //assigned to the variable called "job1".
         //It is created by invoking a special method,
