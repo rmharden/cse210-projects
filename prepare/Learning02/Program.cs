@@ -60,13 +60,16 @@ class Program
 
         //An instance of the Job class is created and
         //assigned to the variable called "job1".
+        
         //It is created by invoking a special method,
         //called the constructor, which is the name
         //of the class followed by parentheses.
+        
         //C# requires the word "new" keyword when
         //calling a constructor.
+        
         Job job1 = new Job();
-        //the member variables start with a underscore _
+        //the member variables start with an underscore _
         job1._jobTitle = "Software Enigeer";
         job1._company = "Microsoft";
         job1._startYear = 2019;
