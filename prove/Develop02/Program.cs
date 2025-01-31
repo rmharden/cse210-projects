@@ -173,6 +173,43 @@ class Program
 /// the user.
 ///</summary>
 
+///<summary>
+///
+///Behaviors [methods] of each class:
+///
+/// Journal Class:
+/// Creates the list for writing prompts.
+/// Displays the menu.
+/// Calls the Entry class.
+/// Adds an entry.
+/// Displays all the entries
+/// Saves to a file.
+/// Loads from a file.
+/// 
+/// Entry Class:
+/// Calls the prompt Generator
+/// Prompts the user.
+/// Adds the entry.
+/// Displays the entry.
+/// Saves the entry.
+/// Stores the data.
+/// 
+/// PromptGenerator Class:
+/// Access the list for writing prompts.
+/// Displays a random writing prompt.
+/// 
+///</summary>
+
+///<summary>
+///Class Attributes:
+///The Journal stores the list of Entry objects
+///
+/// List<Entry>
+/// 
+/// 
+/// 
+///</summary>
+
 
 ///<summary>
 ///
