@@ -61,8 +61,73 @@ class Program
 /// JSON is JavaScript Object Notation. It is used for data
 /// storage and transfer.
 /// 
-/// The program has the following user inputs:
+/// 2. The program has the following outputs for user inputs:
+/// Please select one of the following choices:
+/// 1. Write
+/// 2. Display
+/// 3. Load
+/// 4. Save
+/// 5. Quit
+/// What would you like to do?
 /// 
+/// "1. Write" or "1" gives a random prompt for the user
+/// to answer a question as their entry.
+/// It shows the writing prompt on one line and the next line
+/// has a ">".
+/// 
+/// "3. Load" or "3" asks the user "What is the filename?"
+/// on one line and then the user can type the filename on
+/// the next line.
+/// 
+/// It then asks, "What would you like to do?" - This seems
+/// like a loop for a user input.
+/// 
+/// "4. Save" or "4" will prompt the user with "What is the
+/// file name?" and the user can type it on the next line.
+/// 
+/// 3. What output does it produce?
+/// The output is WriteLine, I think, and will look like this:
+/// Welcome to the Journal Program!
+/// Please select one of the following choices:
+/// 1. Write
+/// 2: Display
+/// 3. Load
+/// 4. Save
+/// 5. Quit
+/// What would you like to do? 
+/// 
+/// With 1. Write, the output will be one of the writing
+/// prompts on one line and a ">" on the second line.
+/// When the user presses ENTER (I think) it should call
+/// the menu class again with:
+/// Please select one of the following choices:
+/// 1. Write
+/// 2. Display
+/// 3. Load
+/// 4. Save
+/// 5. Quit
+/// What would you like to do?
+/// 
+/// "2. Display" or "2" will show in this order:
+/// Date: with the user's inputed date - Prompt: the random
+/// question
+/// The user's entry.
+/// 
+/// It brings up the menu class loop again.
+/// 
+/// "3. Load" or "3" will 
+/// What is the filename.
+/// 
+/// It will have a blank line to write the input.
+/// 
+/// 
+/// "4. Save" or "4" has an output of 
+/// What is the filename.
+/// 
+/// It will have a blank line to write the input.
+/// 
+/// 
+/// 4. The program ends when the user types "5".
 ///</summary>
 
 ///<summary>
@@ -72,6 +137,38 @@ class Program
 ///How did I see the hand of the Lord in my life today?
 ///What was the strongest emotion I felt today?
 ///If I had one thing I could do over today, what would it be?
+///</summary>
+
+///<summary>
+///The classes will be:
+///Journal
+///Entry
+///PromptGenerator
+///
+/// The responsibilities for each are:
+/// 
+/// Journal:
+/// To bring up the menu loop options.
+/// Prompts the user to choose an option.
+/// When "1" is chosen, it calls the Entry class
+/// When "2" is chosen, it displays the journal entries
+/// so far.
+/// When "3" is chosen, it prompts the user for the name
+/// of the file to "load" or to access.
+/// When "4" is chosen, it prompts the user for the name
+/// of the file to "save" and saves the file.
+/// When "5" is chosen, it ends the program from running.
+/// "5" also stops the loop.
+/// 
+/// Entry:
+/// Calls the PromptGeneartor class.
+/// Prompts the user for the entry.
+/// Stores the entry.
+/// 
+/// PromptGeneartor:
+/// Holds the list of the writing prompt options.
+/// Chooses a random prompt from the list and displays it for
+/// the user.
 ///</summary>
 
 
