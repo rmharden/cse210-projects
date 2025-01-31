@@ -17,6 +17,53 @@ class Program
         Console.WriteLine($"Thank you. Your choice was {option}.");
     }
 }
+///<summary>
+///Journal Program:
+///1. What does the program do?
+///It creates and stores a journal.
+///It gives a daily writing prompt.
+///It records the response.
+///It saves the date, their responses, and the question 
+///to a file.
+///It writes a new entry and gives them a random prompt 
+///from a list that I create.
+///It displays the jounral and iterates through all entries
+///to display them on the screen.
+///It saves the journal to a file by prompting the user
+///for a filename and then saves the current journal, the
+///complete list of entries, to that file location.
+///It prompts the user for the filename and then loads it.
+///There is a complete list of entries from that file.
+///This replaces any entries currently stored in the journal.
+/// It provides a menus that allows the user to choose these
+/// options.
+/// It has at least five different prompts and new prompts
+/// that I am going to write in the program from the user.
+/// The interface should be close to the pattern shown in the
+/// video demo.
+/// The program has to have classes for the major components.
+/// It contains at least two classes in addition to the 
+/// Program class.
+/// It demonstrates the principle of abstraction by using
+/// member variables and methods appropriately.
+/// 
+/// Saving your file as a .csv file requires you to handle
+/// commas and quotes in the content appropriately. At this
+/// point, you can ignore that and just choose a symbol for
+/// a separator that you think is unlikely to show up in
+/// the content (such as | or ~ or ~|~). I DO NOT KNOW WHAT
+/// THIS MEANS.
+/// 
+/// You do not need to store the date as an actual C# 
+/// DateTime object in your class or in the file. You can 
+/// simply store it as a string.
+/// 
+/// JSON is JavaScript Object Notation. It is used for data
+/// storage and transfer.
+/// 
+/// The program has the following user inputs:
+/// 
+///</summary>
 
 ///<summary>
 ///Prompts:
