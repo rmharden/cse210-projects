@@ -150,8 +150,10 @@ class Program
 /// Journal:
 /// To bring up the menu loop options.
 /// Prompts the user to choose an option.
-/// When "1" is chosen, it calls the Entry class
-/// When "2" is chosen, it displays the journal entries
+/// When "1" is chosen, it calls the Entry class.
+/// When "2" is chosen, it [reads?] or recalls the list[?]
+/// created in the Entry class, and it displays the 
+/// journal entries
 /// so far.
 /// When "3" is chosen, it prompts the user for the name
 /// of the file to "load" or to access.
@@ -163,7 +165,7 @@ class Program
 /// Entry:
 /// Calls the PromptGeneartor class.
 /// Prompts the user for the entry.
-/// Stores the entry.
+/// Stores the entry in a list[?].
 /// 
 /// PromptGeneartor:
 /// Holds the list of the writing prompt options.
