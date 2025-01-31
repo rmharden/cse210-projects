@@ -17,6 +17,17 @@ class Program
         Console.WriteLine($"Thank you. Your choice was {option}.");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 ///<summary>
 ///Journal Program:
 ///1. What does the program do?
