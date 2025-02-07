@@ -1,4 +1,5 @@
 using System;
+using System.Net.Http.Headers;
 
 class Program
 {
@@ -14,7 +15,13 @@ class Program
         Console.Write("What would you like to do? ");
         string option = Console.ReadLine();
 
-        Console.WriteLine($"Thank you. Your choice was {option}.");
+        if option == 1:
+        {
+            Entry entry = new Entry();
+        }
+
+
+        //Console.WriteLine($"Thank you. Your choice was {option}.");
     }
 }
 
